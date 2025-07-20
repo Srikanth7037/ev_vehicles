@@ -9,7 +9,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.model_selection import RandomizedSearchCV
 from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 df = pd.read_csv("C:\\Users\\NARESH SAGAR\\Downloads\\ev_data.csv")
-print(df.head(5)) # top 5 rows 
+print(df.head(5)) 
 # no of rows and cols
 print(df.shape) 
 # Data Types, class and memory alloc
